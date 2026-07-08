@@ -190,3 +190,22 @@ footer p {
         text-align: center;
     }
 }
+#contact form{
+    max-width:700px;
+    margin:auto;
+}
+
+#contact input,
+#contact textarea{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    font-size:16px;
+    box-sizing:border-box;
+}
+
+#contact textarea{
+    resize:vertical;
+}
