@@ -98,7 +98,7 @@
         <p class="title">Founder &amp; Director</p>
         <p>With near two decades of experience in the field of High-temperature Materials, Solid Waste Recycling, Refractory Monolithics, Cements and Glass, Prof. Mithun Nath founded Wuboraite Technologies, and responsible for comapny's operation, strategy and heading research and product development of high-temperature materials.</p>
     
-        <p><button class="button">Contact</button></p>
+        <p><a href="#contact" class="button">Contact</a></p>
       </div>
     </div>
   </div>
@@ -127,15 +127,43 @@
 			</p>
     </section>
 
-    <!-- Contact Us Section -->
-    <section id="contact" class="container">
-        <h2>Contact Us</h2>
-        <img src="css-photo/contacts.png" alt="Contact Us" class="section-img">
-        <p>We would love to hear from you! Reach out to us through our contact form, or connect with us on social media.
-        <p>Phone: +61-477480338</p>
-		</p> ABN: 45797426031</p>
-        
-    </section>
+<!-- Contact Us Section -->
+<section id="contact" class="container">
+    <h2>Contact Us</h2>
+
+    <img src="css-photo/contacts.png" alt="Contact Us" class="section-img">
+
+    <form action="https://formspree.io/f/mbdveapg" method="POST">
+
+        <input type="text"
+               name="name"
+               placeholder="Your Name"
+               required>
+
+        <input type="email"
+               name="email"
+               placeholder="Your Email"
+               required>
+
+        <textarea
+            name="message"
+            placeholder="Your Message"
+            rows="6"
+            required></textarea>
+
+        <button type="submit" class="button">
+            Send Message
+        </button>
+
+    </form>
+
+    <br>
+
+    <p><strong>Phone:</strong> +61 477 480 338</p>
+
+    <p><strong>ABN:</strong> 45797426031</p>
+
+</section>
 
     <!-- Social Media Section -->
     <footer>
